@@ -1,7 +1,9 @@
 body, html {
     height: 100%;
+    overflow-x: hidden;
 }
 
+/* hero image */
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/images/hero.jpg");
     height: 100%;
@@ -16,6 +18,7 @@ body, html {
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 100%;
     transform: translate(-50%, -50%);
     color: white;
     font-family: "Open Sans","HelveticaNeue","Helvetica Neue",sans-serif;
@@ -57,4 +60,27 @@ body, html {
 .hero-text a:hover {
     background-color: #555;
     color: white;
+}
+
+@media screen and (max-width: 850px) {
+    .hero-text h1 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    
+    .hero-text p {
+        font-size: 1rem;
+        font-weight: 350;
+    }
+}
+
+/* stay in touch */
+.stay-in-touch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(120,129,136,0.1);
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
