@@ -1,3 +1,9 @@
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+    font-family: "Open Sans","HelveticaNeue","Helvetica Neue",sans-serif;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #fff;
@@ -21,7 +27,6 @@
     text-align: center;
     padding: 30px 25px;
     text-decoration: none;
-    font-family: "Open Sans","HelveticaNeue","Helvetica Neue",sans-serif;
     font-size: .8rem;
     font-weight: 100;
     letter-spacing: 0.1em;
