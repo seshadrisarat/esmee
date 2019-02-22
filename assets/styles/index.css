@@ -37,10 +37,11 @@ body, html {
     margin-bottom: 25px;
 }
 
-.hero-text button {
+.hero-text a {
     border: none;
     outline: 0;
     display: inline-block;
+    text-decoration: none;
     padding: 15px 25px;
     color: black;
     background-color: white;
@@ -53,7 +54,7 @@ body, html {
     letter-spacing: 0.1em;
 }
 
-.hero-text button:hover {
+.hero-text a:hover {
     background-color: #555;
     color: white;
 }
