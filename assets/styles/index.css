@@ -119,7 +119,7 @@
     border: 1px solid transparent;
     border-radius: 0 2px 2px 0;
     box-sizing: border-box;
-    font-size: .9rem;
+    font-size: .8rem;
     font-weight: 200;
     letter-spacing: 0.08rem;
 }
@@ -134,7 +134,7 @@
     box-sizing: border-box;
     background-color: #86cb8e;
     color: white;
-    font-size: .7rem;
+    font-size: .8rem;
     font-weight: 900;
     letter-spacing: 0.1rem;
   }
