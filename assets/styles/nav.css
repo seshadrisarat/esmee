@@ -11,9 +11,9 @@ body, html {
 }
 
 .topnav a:first-child {
-    width: 30%;
     color: #060707;
     padding: 23.5px 20px;
+    margin-right: 15%;
     font-size: 1.5rem;
     font-weight: 900;
     letter-spacing: 0.4em;
