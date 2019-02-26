@@ -36,8 +36,8 @@
     <!-- product detail -->
     <div class="product">
         <div class="images">
-            <div class="large">
-                <img src="/assets/images/1.1-@1024.jpeg" alt="product introduction">
+            <div id="zoomImage">
+                <img id="initImage" src="/assets/images/1.1-@1024.jpeg" onmouseenter="javascript:imageZoom('initImage', 'zoomImage');" onmouseout="javascript:imageRecover('initImage');" alt="product introduction">
             </div>
             <div class="small">
                 <img src="/assets/images/1.1-@1024.jpeg" alt="product introduction">

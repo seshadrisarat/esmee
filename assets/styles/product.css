@@ -18,8 +18,22 @@
     height: 940px;
 }
 
-.large img {
+#zoomImage {
     width: 530px;
+    height: 530px;
+    position: relative;
+}
+
+#initImage {
+    width: 530px;
+}
+
+.zoom-lens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    /*set the size of the lens:*/
+    width: 130px;
+    height: 130px;
 }
 
 .small {
@@ -99,7 +113,11 @@ ul {
         margin-right: 0px;
         height: 100%;
     }
-    .large img {
+    #zoomImage {
+        width: 100%;
+        height: 100%;
+    }
+    #initImage {
         width: 100%;
     }
     .small {
@@ -134,11 +152,15 @@ ul {
         margin-left: 50px;
         margin-right: 20px;
     }
-    .large img {
+    #zoomImage {
+        width: 442px;
+        height: 442px;
+    }
+    #initImage {
         width: 442px;
     }
     .small {
-        justify-content: center;
+        justify-content: space-evenly;
         width: 100%;
     }
     .small img {
