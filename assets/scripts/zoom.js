@@ -1,5 +1,13 @@
+function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+};
+
 function imageZoom(imgID, resultID) {
-    console.log('imageZoom');
+
+    if(isMobileDevice()){
+        return;
+    }
+
     var img, lens, result, cx, cy;
 
     img = document.getElementById(imgID);
@@ -79,7 +87,11 @@ function imageZoom(imgID, resultID) {
 }
 
 function imageRecover(imgID) {
-    console.log('imageRecover');
+
+    if(isMobileDevice()){
+        return;
+    }
+
     var img, lens;
 
     /* Remove lens */
