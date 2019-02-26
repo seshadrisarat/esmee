@@ -1,4 +1,5 @@
 function imageZoom(imgID, resultID) {
+    console.log('imageZoom');
     var img, lens, result, cx, cy;
 
     img = document.getElementById(imgID);
@@ -78,6 +79,7 @@ function imageZoom(imgID, resultID) {
 }
 
 function imageRecover(imgID) {
+    console.log('imageRecover');
     var img, lens;
 
     /* Remove lens */
