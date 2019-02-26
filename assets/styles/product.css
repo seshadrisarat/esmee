@@ -30,7 +30,7 @@
 
 .zoom-lens {
     position: absolute;
-    border: 1px solid #d4d4d4;
+    border: 0px solid #d4d4d4;
     /*set the size of the lens:*/
     width: 130px;
     height: 130px;
@@ -47,6 +47,11 @@
 
 .small img {
     width: 106px;
+    cursor: pointer;
+}
+
+.small img.selected {
+    border: 2px solid #3d4246;
 }
 
 .descriptions {

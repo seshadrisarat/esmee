@@ -37,13 +37,13 @@
     <div class="product">
         <div class="images">
             <div id="zoomImage">
-                <img id="initImage" src="/assets/images/1.1-@1024.jpeg" onmouseenter="javascript:imageZoom('initImage', 'zoomImage');" onmouseout="javascript:imageRecover('initImage');" alt="product introduction">
+                <img id="initImage" src="/assets/images/1.1-@1024.jpeg" onmouseenter="imageZoom('initImage', 'zoomImage');" onmouseout="imageRecover('initImage');" alt="product introduction">
             </div>
             <div class="small">
-                <img src="/assets/images/1.1-@1024.jpeg" alt="product introduction">
-                <img src="/assets/images/1.2-@1024.jpeg" alt="product introduction">
-                <img src="/assets/images/1.3-@1024.jpeg" alt="product introduction">
-                <img src="/assets/images/1.4-@1024.jpeg" alt="product introduction">
+                <img class="selected" src="/assets/images/1.1-@1024.jpeg" onclick="selectImage()" alt="product introduction">
+                <img src="/assets/images/1.2-@1024.jpeg" onclick="selectImage()" alt="product introduction">
+                <img src="/assets/images/1.3-@1024.jpeg" onclick="selectImage()" alt="product introduction">
+                <img src="/assets/images/1.4-@1024.jpeg" onclick="selectImage()" alt="product introduction">
             </div>
         </div>
         <div class="descriptions">

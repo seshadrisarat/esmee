@@ -102,3 +102,18 @@ function imageRecover(imgID) {
     img = document.getElementById(imgID);
     img.style.opacity = "1";
 }
+
+function selectImage(e) {
+    /* Remove all small images selected class */
+    var smallImages = document.getElementsByClassName('small')[0].children;
+    for(var i=0; i<smallImages.length; i++){
+        smallImages[i].classList.remove('selected');
+    }
+    /* Add selected class to currently selected small image */
+    e = e || window.event;
+    var target = e.target || e.srcElement;
+    target.classList.add('selected');
+
+    /* change init image src based on currently selected small image */
+    document.getElementById('initImage').src = target.src;
+}
